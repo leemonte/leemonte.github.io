@@ -1597,8 +1597,10 @@
      padding-bottom: 700px;
      background-image: url("treatment123.jpg");
      background-position: 0px 0px;
-     background-size: 35%;
+     background-size: %;
      background-attachment: fixed;
+     -webkit-transition: opacity 200ms ease;
+     transition: opacity 200ms ease;
      background-clip: border-box;
    }
 
@@ -2947,7 +2949,7 @@
    
    .div-block-nomor {
      padding-bottom: 700px;
-     background-image: url("stagesbreast.png");
+     background-image: url("msp.webp");
      background-position: 0px 0px;
      background-size: cover;
      background-attachment: fixed;
